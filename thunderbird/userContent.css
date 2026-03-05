@@ -1,0 +1,35 @@
+@-moz-document url-prefix("about:blank?compose") {
+    body {
+        background-color: #2b2b2b !important;
+    }
+    
+    body *[style*="color: rgb(0, 0, 0)"],
+    body *[style*="color:#000000"],
+    body *[style*="color:#000"],
+    body *[style*="color:black"],
+    body *[style*="color:#212121"],
+    body *[style*="color: rgb(33, 33, 33)"] {
+        color: #e8e8e8 !important;
+    }
+    
+    body *[style*="color:#B40B08"],
+    body *[style*="color: rgb(180, 11, 8)"] {
+        color: #ff6b6b !important;
+    }
+    
+    a,
+    body *[style*="color:#0563C1"],
+    body *[style*="color:#467886"] {
+        color: #66b3ff !important;
+    }
+    
+    p, div, span, li, td {
+        color: #e8e8e8 !important;
+    }
+    
+    font[color="#000000"],
+    font[color^="#000"],
+    font[color="black"] {
+        color: #e8e8e8 !important;
+    }
+}
