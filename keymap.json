@@ -1,0 +1,162 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "f6": ["task::Spawn", { "task_name": "Build Shaders" }],
+    },
+  },
+  {
+    "bindings": {
+      "f11": "debugger::StepInto",
+      "f10": "debugger::StepOver",
+      "ctrl-f9": "debugger::ToggleEnableBreakpoint",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-pagedown": "tab_switcher::Toggle",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-pageup": [
+        "tab_switcher::Toggle",
+        {
+          "select_last": true,
+        },
+      ],
+    },
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-tab": "pane::ActivateNextItem",
+    },
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-shift-tab": "pane::ActivatePreviousItem",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-2": "workspace::ActivatePaneRight",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-1": "workspace::ActivatePaneLeft",
+    },
+  },
+  // {
+  //   "bindings": {
+  //     "ctrl-alt-pageup": "workspace::MovePaneLeft"
+  //   }
+  // },
+  // {
+  //   "bindings": {
+  //     "ctrl-alt-pagedown": "workspace::MovePaneRight"
+  //   }
+  // },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-pagedown": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "right" },
+      ],
+      "ctrl-alt-pageup": [
+        "workspace::MoveItemToPaneInDirection",
+        { "direction": "left" },
+      ],
+    },
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-shift-pageup": "pane::SplitLeft",
+    },
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-shift-pagedown": "pane::SplitRight",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-up": [
+        "editor::AddSelectionAbove",
+        {
+          "skip_soft_wrap": true
+        }
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-down": [
+        "editor::AddSelectionBelow",
+        {
+          "skip_soft_wrap": true
+        }
+      ]
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-shift-down": "editor::DuplicateLineDown"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-shift-up": "editor::DuplicateLineUp"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-left": "pane::GoBack"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-right": "pane::GoForward"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "shift-f12": "editor::FindAllReferences"
+    }
+  }
+]

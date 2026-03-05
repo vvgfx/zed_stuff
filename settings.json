@@ -1,0 +1,168 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "ensure_final_newline_on_save": false,
+  "remove_trailing_whitespace_on_save": true,
+  "agent_ui_font_size": 16.0,
+  "title_bar": {
+    "show_sign_in": false,
+  },
+  "inlay_hints": {
+    "enabled": true,
+  },
+  "buffer_line_height": "standard",
+  "tabs": {
+    "git_status": false,
+  },
+  "disable_ai": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "buffer_font_fallbacks": ["Droid Sans Mono", "monospace"],
+  "buffer_font_family": "Cascadia Code",
+  "base_keymap": "VSCode",
+  "ui_font_size": 16.0,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Zedokai Darker (Filter Spectrum)",
+  },
+  // "experimental.theme_overrides": {
+  //   "editor.background": "#191919",
+  //   "editor.gutter.background": "#1C1C1C",
+  //   "panel.background": "#212121",
+  //   "toolbar.background": "#1C1C1C",
+  //   // "surface.background": "#212121",
+  //   // "background": "#1C1C1C",
+  //   // "tab_bar.background": "#1C1C1C",
+  //   // "status_bar.background": "#1C1C1C",
+  // },
+  //
+
+  // "languages": {
+  //   "C++": {
+  //     "semantic_tokens": "combined",
+  //   },
+  // },
+
+  // "theme_overrides": {
+  //   "Zedokai Darker (Filter Spectrum)": {
+  //     "editor.active_line_number": "#C4BFC9FF",
+  //     "editor.background": "#191919FF",
+  //     "editor.foreground": "#C4BFC9FF",
+  //     "editor.gutter.background": "#191919FF",
+  //     "panel.background": "#212121",
+  //     "link_text.hover": "#C4BFC9FF", //E0DAE6FF
+  //     "editor.subheader.background": "#212121",
+  //     "syntax": {
+  //       "property": {
+  //         "color": "#C4BFC9FF", //E0DAE6FF
+  //       },
+  //       "string.escape": {
+  //         "color": "#C4BFC9FF",
+  //       },
+  //       "variable": {
+  //         "color": "#C4BFC9FF", //E0DAE6FF
+  //       },
+  //       "comment": {
+  //         "color": "#615E66FF",
+  //       },
+  //     },
+  //     "tab.active_background": "#191919FF",
+  //     "terminal.background": "#191919FF",
+  //     "text": "#C4BFC9FF", //E0DAE6FF
+  //     "toolbar.background": "#191919FF",
+  //     "icon": "#C4BFC9FF", //E0DAE6FF
+  //     "terminal.foreground": "#C4BFC9FF",
+  //     "icon.muted": "#69676CFF",
+  //     "hint": "#615E66FF",
+  //     "tab.inactive_background": "#212121FF",
+  //     "tab_bar.background": "#212121FF",
+  //   },
+  // },
+  //
+
+  "languages": {
+    "C++": {
+      "semantic_tokens": "combined",
+    },
+  },
+  "theme_overrides": {
+    "Zedokai Darker (Filter Spectrum)": {
+      "editor.active_line_number": "#C4BFC9FF",
+      "editor.background": "#191919FF",
+      "editor.foreground": "#C4BFC9FF",
+      "editor.gutter.background": "#191919FF",
+      "editor.subheader.background": "#212121FF",
+      "hint": "#615E66FF",
+      "link_text.hover": "#C4BFC9FF",
+      "panel.background": "#212121FF",
+      "syntax": {
+        "attribute": {
+          "color": "#4FBED1FF",
+        },
+        "comment": {
+          "color": "#615E66FF",
+        },
+        "constructor": {
+          "color": "#E65781FF",
+        },
+        "keyword": {
+          "color": "#E65781FF",
+        },
+        "link_text": {
+          "color": "#E65781FF",
+        },
+        "operator": {
+          "color": "#E65781FF",
+        },
+        "property": {
+          "color": "#006A67", //C4BFC9FF
+        },
+        "string": {
+          "color": "#E0CB5CFF",
+        },
+        "string.escape": {
+          "color": "#C4BFC9FF",
+        },
+        "string.regex": {
+          "color": "#E0CB5CFF",
+        },
+        "tag": {
+          "color": "#E65781FF",
+        },
+        "text.literal": {
+          "color": "#E0CB5CFF",
+        },
+        "title": {
+          "color": "#E0CB5CFF",
+        },
+        "type": {
+          "color": "#4FBED1FF",
+        },
+        "variable": {
+          "color": "#C4BFC9FF",
+        },
+      },
+      "tab.active_background": "#191919FF",
+      "tab.inactive_background": "#212121FF",
+      "tab_bar.background": "#212121FF",
+      "terminal.background": "#191919FF",
+      "text": "#C4BFC9FF",
+      "toolbar.background": "#191919FF",
+      "icon": "#C4BFC9FF",
+      "terminal.foreground": "#C4BFC9FF",
+    },
+  },
+}
