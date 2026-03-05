@@ -158,5 +158,10 @@
     "bindings": {
       "shift-f12": "editor::FindAllReferences"
     }
+  },
+  {
+    "bindings": {
+      "ctrl-f10": "debugger::RunToCursor"
+    }
   }
 ]
