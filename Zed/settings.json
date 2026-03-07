@@ -39,6 +39,14 @@
     "light": "Ayu Light",
     "dark": "Zedokai Darker (Filter Spectrum)",
   },
+  "formatter": {
+    "external": {
+      "command": "clang-format",
+      "arguments": ["--style=file", "--assume-filename={buffer_path}"],
+    },
+  },
+  "format_on_save": "on",
+
   // "experimental.theme_overrides": {
   //   "editor.background": "#191919",
   //   "editor.gutter.background": "#1C1C1C",
@@ -129,7 +137,8 @@
           "color": "#E65781FF",
         },
         "property": {
-          "color": "#C4BFC9FF", //C4BFC9FF
+          "color": "#C4BFC9FF",
+          // C4BFC9FF
         },
         "string": {
           "color": "#E0CB5CFF",
@@ -153,7 +162,8 @@
           "color": "#4FBED1FF",
         },
         "variable": {
-          "color": "#0A7A77", //566B69FF
+          "color": "#0A7A77",
+          // 566B69FF
         },
       },
       "tab.active_background": "#191919FF",
