@@ -39,12 +39,6 @@
     "light": "Ayu Light",
     "dark": "Zedokai Darker (Filter Spectrum)",
   },
-  "formatter": {
-    "external": {
-      "command": "clang-format",
-      "arguments": ["--style=file", "--assume-filename={buffer_path}"],
-    },
-  },
   "format_on_save": "on",
 
   // "experimental.theme_overrides": {
@@ -105,6 +99,13 @@
   "languages": {
     "C++": {
       "semantic_tokens": "combined",
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "clang-format",
+          "arguments": ["--style=file", "--assume-filename={buffer_path}"],
+        },
+      },
     },
   },
   "theme_overrides": {
