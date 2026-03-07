@@ -101,7 +101,7 @@
   },
   "theme_overrides": {
     "Zedokai Darker (Filter Spectrum)": {
-      "editor.active_line_number": "#C4BFC9FF",
+      "editor.active_line_number": "#958B9EFF",
       "editor.background": "#191919FF",
       "editor.foreground": "#C4BFC9FF",
       "editor.gutter.background": "#191919FF",
