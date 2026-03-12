@@ -7,6 +7,16 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "excerpt_context_lines": 15,
+  "expand_excerpt_lines": 20,
+  "git": {
+    "blame": {
+      "show_avatar": true,
+    },
+    "inline_blame": {
+      "show_commit_summary": true,
+    },
+  },
   "vim_mode": false,
   "ensure_final_newline_on_save": false,
   "remove_trailing_whitespace_on_save": true,
@@ -41,61 +51,6 @@
   },
   "format_on_save": "on",
 
-  // "experimental.theme_overrides": {
-  //   "editor.background": "#191919",
-  //   "editor.gutter.background": "#1C1C1C",
-  //   "panel.background": "#212121",
-  //   "toolbar.background": "#1C1C1C",
-  //   // "surface.background": "#212121",
-  //   // "background": "#1C1C1C",
-  //   // "tab_bar.background": "#1C1C1C",
-  //   // "status_bar.background": "#1C1C1C",
-  // },
-  //
-
-  // "languages": {
-  //   "C++": {
-  //     "semantic_tokens": "combined",
-  //   },
-  // },
-
-  // "theme_overrides": {
-  //   "Zedokai Darker (Filter Spectrum)": {
-  //     "editor.active_line_number": "#C4BFC9FF",
-  //     "editor.background": "#191919FF",
-  //     "editor.foreground": "#C4BFC9FF",
-  //     "editor.gutter.background": "#191919FF",
-  //     "panel.background": "#212121",
-  //     "link_text.hover": "#C4BFC9FF", //E0DAE6FF
-  //     "editor.subheader.background": "#212121",
-  //     "syntax": {
-  //       "property": {
-  //         "color": "#C4BFC9FF", //E0DAE6FF
-  //       },
-  //       "string.escape": {
-  //         "color": "#C4BFC9FF",
-  //       },
-  //       "variable": {
-  //         "color": "#C4BFC9FF", //E0DAE6FF
-  //       },
-  //       "comment": {
-  //         "color": "#615E66FF",
-  //       },
-  //     },
-  //     "tab.active_background": "#191919FF",
-  //     "terminal.background": "#191919FF",
-  //     "text": "#C4BFC9FF", //E0DAE6FF
-  //     "toolbar.background": "#191919FF",
-  //     "icon": "#C4BFC9FF", //E0DAE6FF
-  //     "terminal.foreground": "#C4BFC9FF",
-  //     "icon.muted": "#69676CFF",
-  //     "hint": "#615E66FF",
-  //     "tab.inactive_background": "#212121FF",
-  //     "tab_bar.background": "#212121FF",
-  //   },
-  // },
-  //
-
   "languages": {
     "C++": {
       "semantic_tokens": "combined",
@@ -118,6 +73,7 @@
       "hint": "#615E66FF",
       "link_text.hover": "#C4BFC9FF",
       "panel.background": "#212121FF",
+      // "editor.document_highlight.read_background": "#F7F1FF0C",
       "syntax": {
         "attribute": {
           "color": "#4FBED1FF",

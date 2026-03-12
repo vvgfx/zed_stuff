@@ -163,5 +163,15 @@
     "bindings": {
       "ctrl-f10": "debugger::RunToCursor"
     }
+  },
+  {
+    "bindings": {
+      "alt-shift-pageup": "editor::HalfPageUp"
+    }
+  },
+  {
+    "bindings": {
+      "alt-shift-pagedown": "editor::HalfPageDown"
+    }
   }
 ]
