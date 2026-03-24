@@ -72,16 +72,6 @@
       "ctrl-1": "workspace::ActivatePaneLeft",
     },
   },
-  // {
-  //   "bindings": {
-  //     "ctrl-alt-pageup": "workspace::MovePaneLeft"
-  //   }
-  // },
-  // {
-  //   "bindings": {
-  //     "ctrl-alt-pagedown": "workspace::MovePaneRight"
-  //   }
-  // },
   {
     "context": "Editor",
     "bindings": {
@@ -95,83 +85,83 @@
       ],
     },
   },
+  // {
+  //   "context": "Pane",
+  //   "bindings": {
+  //     "ctrl-shift-pageup": "pane::SplitLeft",
+  //   },
+  // },
+  // {
+  //   "context": "Pane",
+  //   "bindings": {
+  //     "ctrl-shift-pagedown": "pane::SplitRight",
+  //   },
+  // },
+  // {
+  //   "context": "Editor",
+  //   "bindings": {
+  //     "ctrl-alt-up": [
+  //       "editor::AddSelectionAbove",
+  //       {
+  //         "skip_soft_wrap": true,
+  //       },
+  //     ],
+  //   },
+  // },
+  // {
+  //   "context": "Editor",
+  //   "bindings": {
+  //     "ctrl-alt-down": [
+  //       "editor::AddSelectionBelow",
+  //       {
+  //         "skip_soft_wrap": true,
+  //       },
+  //     ],
+  //   },
+  // },
   {
-    "context": "Pane",
+    "context": "Editor",
     "bindings": {
-      "ctrl-shift-pageup": "pane::SplitLeft",
+      "alt-shift-down": "editor::DuplicateLineDown",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-shift-up": "editor::DuplicateLineUp",
     },
   },
   {
     "context": "Pane",
     "bindings": {
-      "ctrl-shift-pagedown": "pane::SplitRight",
+      "alt-left": "pane::GoBack",
+    },
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-right": "pane::GoForward",
     },
   },
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-alt-up": [
-        "editor::AddSelectionAbove",
-        {
-          "skip_soft_wrap": true
-        }
-      ]
-    }
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "ctrl-alt-down": [
-        "editor::AddSelectionBelow",
-        {
-          "skip_soft_wrap": true
-        }
-      ]
-    }
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "alt-shift-down": "editor::DuplicateLineDown"
-    }
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "alt-shift-up": "editor::DuplicateLineUp"
-    }
-  },
-  {
-    "context": "Pane",
-    "bindings": {
-      "alt-left": "pane::GoBack"
-    }
-  },
-  {
-    "context": "Pane",
-    "bindings": {
-      "alt-right": "pane::GoForward"
-    }
-  },
-  {
-    "context": "Editor",
-    "bindings": {
-      "shift-f12": "editor::FindAllReferences"
-    }
+      "shift-f12": "editor::FindAllReferences",
+    },
   },
   {
     "bindings": {
-      "ctrl-f10": "debugger::RunToCursor"
-    }
+      "ctrl-f10": "debugger::RunToCursor",
+    },
   },
   {
     "bindings": {
-      "alt-shift-pageup": "editor::HalfPageUp"
-    }
+      "alt-pageup": "editor::HalfPageUp",
+    },
   },
   {
     "bindings": {
-      "alt-shift-pagedown": "editor::HalfPageDown"
-    }
-  }
+      "alt-pagedown": "editor::HalfPageDown",
+    },
+  },
 ]
