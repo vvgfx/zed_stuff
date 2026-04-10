@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "scroll_sensitivity": 1.5,
   "excerpt_context_lines": 15,
   "expand_excerpt_lines": 20,
   "git": {
@@ -17,7 +18,6 @@
       "show_commit_summary": true,
     },
   },
-  "vim_mode": false,
   "ensure_final_newline_on_save": false,
   "remove_trailing_whitespace_on_save": true,
   "agent_ui_font_size": 16.0,

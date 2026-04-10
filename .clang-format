@@ -1,11 +1,13 @@
 #.clang - format
 IndentWidth: 4
-ColumnLimit: 120
+ColumnLimit: 150
 BreakBeforeBraces: Allman
-#AlignConsecutiveAssignments : true
-#AlignConsecutiveDeclarations : true
+# AlignConsecutiveAssignments: true
+# AlignConsecutiveDeclarations: true
 AllowShortIfStatementsOnASingleLine: Never
 AllowShortLoopsOnASingleLine: false
-RemoveBracesLLVM: true
+# RemoveBracesLLVM: true
+InsertBraces: true
 AllowShortFunctionsOnASingleLine: None
 NamespaceIndentation: All
+PointerAlignment: Right
